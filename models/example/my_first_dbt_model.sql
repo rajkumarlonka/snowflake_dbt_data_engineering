@@ -9,7 +9,9 @@
 
 {{ 
     config ( 
-    materialized='table'
+    materialized='table',
+    database='DEV_RAW',
+    schema='STG'
     ) 
     
     }}
