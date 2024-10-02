@@ -9,11 +9,13 @@ sources:
           - name: ABAC_JOB
           - name: ABAC_JOB_RUN
           - name: VW_ABAC
+          - name: ABAC_JOB_CTRL
     - name: RAW
       database: DEV_RAW
       schema: RAW
       tables:
           - name: EMPLOYEE_STG
+          - name: EMPLOYEE_SRC_SCD2
 
     - name: CURATED
       database: DEV_CURATED
